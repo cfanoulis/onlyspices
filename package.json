@@ -1,0 +1,28 @@
+{
+	"name": "with-typescript",
+	"version": "1.0.0",
+	"scripts": {
+		"dev": "next",
+		"build": "next build",
+		"start": "next start",
+		"type-check": "tsc"
+	},
+	"dependencies": {
+		"autoprefixer": "^10.2.6",
+		"next": "latest",
+		"postcss": "^8.3.0",
+		"react": "^17.0.1",
+		"react-dom": "^17.0.1",
+		"tailwindcss": "^2.1.4"
+	},
+	"devDependencies": {
+		"@sapphire/prettier-config": "^1.1.2",
+		"@types/node": "^15.12.1",
+		"@types/react": "^17.0.2",
+		"@types/react-dom": "^17.0.1",
+		"prettier": "^2.3.1",
+		"typescript": "4.3.2"
+	},
+	"license": "MIT",
+	"prettier": "@sapphire/prettier-config"
+}
