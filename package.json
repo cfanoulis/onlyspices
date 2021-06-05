@@ -9,6 +9,8 @@
 	},
 	"dependencies": {
 		"autoprefixer": "^10.2.6",
+		"date-fns": "^2.22.1",
+		"feather-icons": "^4.28.0",
 		"next": "latest",
 		"postcss": "^8.3.0",
 		"react": "^17.0.1",
