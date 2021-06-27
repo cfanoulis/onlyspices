@@ -131,10 +131,10 @@
   resolved "https://registry.yarnpkg.com/@opentelemetry/context-base/-/context-base-0.14.0.tgz#c67fc20a4d891447ca1a855d7d70fa79a3533001"
   integrity sha512-sDOAZcYwynHFTbLo6n8kIbLiVF3a3BLkrmehJUyEbT9F+Smbi47kLGS2gG2g0fjBLR/Lr1InPD7kXL7FaTqEkw==
 
-"@sapphire/prettier-config@1.1.4":
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/@sapphire/prettier-config/-/prettier-config-1.1.4.tgz#40dc70a4ae96e1b7753c37f0d548d6de6af824fd"
-  integrity sha512-leSrlNGb9yFXBpXy6z+ovPr1npGR4D2KjBezQyFDEA0Kuo03lRmjVSmwgsvT4xBHGaXE5oWltCuOrFqc52BGwQ==
+"@sapphire/prettier-config@1.1.6":
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/@sapphire/prettier-config/-/prettier-config-1.1.6.tgz#7e0ebd4241b9f4eba7d6ab33639ea2a7f5ba519a"
+  integrity sha512-+xM4Fv1WbWCAMa2mOMUhPC+06FNT4fxkJ6K56pLQQyt1Uc3lKEWjDGvCZZciVW2D+wdSJNuSsHSpn6TkZUmMIg==
   dependencies:
     prettier "2.x"
 
