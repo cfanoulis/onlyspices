@@ -1,17 +1,17 @@
-import { format } from "date-fns";
+import { format } from 'date-fns';
 
 interface CardProps {
-	spice: string
-	purchasedAt: number
-	tag: number
+	spice: string;
+	purchasedAt: number;
+	tag: number;
 }
 
 const Card = (props: CardProps) => {
-	const date = format(props.purchasedAt ?? 0, 'yyyy-mm-dd')
+	const date = format(new Date(props.purchasedAt * 1000), 'yyyy-MM-dd');
 	return (
 		<div className="border-gray-300 border-solid border-2 rounded-xl shadow-xl p-8 m-8 flex flex-row">
 			<div>
-				<p className="font-bold">{props.spice ?? 'Tumeric'}</p>
+				<h5 className="font-bold text-lg">{props.spice ?? 'Tumeric'}</h5>
 				<p className="font-mono">{date}</p>
 				<p className="font-mono text-xs">OS-{(props.tag ?? 'NOTAG').toString().padStart(3, '0')}</p>
 			</div>
